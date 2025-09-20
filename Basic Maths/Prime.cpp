@@ -8,7 +8,6 @@ bool prime(int n){
             break;
         }
     }
-
 }
 // or we can say if a number has only 2 factors it is Prime
 int prime1(int n){
