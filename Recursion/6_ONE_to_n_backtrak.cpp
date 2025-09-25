@@ -5,7 +5,7 @@ using namespace std;
 int name(int i,int n){
     if(i<1) return 0;
     else{
-    name(i-1,n); // calls funtion here till the upper conditon gets true and returns adn prints the i
+    name(i-1,n); // calls funtion here till the upper conditon gets true and returns and prints the i
     cout<<i<<" ";
     }
     

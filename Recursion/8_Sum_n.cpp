@@ -1,16 +1,17 @@
+//parameterised
 #include<bits/stdc++.h>
 using namespace std;
 
-void summ(int n,int sum){
+void sum(int n,int tot){
     if(n<1){
-        cout<<sum;
+        cout<<tot;
         return;
     }
-    summ(n-1,sum+n);
+    sum(n-1,tot+n);
     }
 int main(){
     int n;
     cout<<"Enter nth number"<< endl;
     cin>>n;
-    summ(n,0);
+    sum(n,0);
 }
