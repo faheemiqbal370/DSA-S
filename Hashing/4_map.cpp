@@ -5,7 +5,7 @@ int main(){
     int n;
     cout<<"Size"<<endl;
     cin>>n;
-    map<int,int>mpp;
+    map<int,int>mpp;  // use unorderd map to decrese time complexity , unorderd map should be the first prefrencce
     int arr[n];
     for(int i=0;i<n;i++){
         cin>>arr[i];
