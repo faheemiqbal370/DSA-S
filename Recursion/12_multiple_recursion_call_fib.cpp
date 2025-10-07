@@ -6,7 +6,7 @@ int fib(int n){
 
     int last=fib(n-1);
     int slast=fib(n-2);
-    return last+slast;
+    return last+slast; // This uses Recursion Tree
 }
 int main(){
     int n;

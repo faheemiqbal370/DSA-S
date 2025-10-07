@@ -5,8 +5,8 @@ using namespace std;
 int name(int i,int n){
     if(i>n) return 0;
     else{
-    name(i+1,n); // calls funtion here till the upper conditon gets true and returns adn prints the i
-    cout<<i<<" ";
+    name(i+1,n); // calls funtion here till the upper conditon gets true {name(6,5)} and returns and prints the i on return
+    cout<<i<<" "; // printing happens on return
     }
     
 }
