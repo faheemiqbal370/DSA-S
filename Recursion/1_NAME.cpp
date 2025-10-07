@@ -2,12 +2,11 @@
 using namespace std;
 
 int name(int i,int n){
-    if(i>n) return 0;
+    if(i>n) return 0;//BaseCase
     else{
     cout<<i<<" faheem"<<endl;
     name(i+1,n);
-    }
-     //BaseCase
+    }   
 }
 int main(){
 

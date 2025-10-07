@@ -6,8 +6,7 @@ int name(int i,int n){
     else{
     cout<<i<<" ";
     name(i+1,n);
-    }
-    
+    } 
 }
 int main(){
 
