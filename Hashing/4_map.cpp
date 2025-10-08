@@ -11,7 +11,6 @@ int main(){
         cin>>arr[i];
         mpp[arr[i]]++;
     }
-
     int t;
     cout<<"how many numbers you wann find"<<endl;
     cin>>t;
@@ -20,7 +19,6 @@ int main(){
         int nbr;
         cout<<"Enter Number"<<endl;
         cin>>nbr;
-
         cout<<"appers "<<mpp[nbr]<<" times"<<endl;
     }
 }
