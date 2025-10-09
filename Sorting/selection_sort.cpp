@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int sort(int arr[],int n){
+void sort(int arr[],int n){
 
     for(int i=0;i<=n-2;i++){
           int mini=i;
