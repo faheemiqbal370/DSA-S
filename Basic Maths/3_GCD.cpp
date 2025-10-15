@@ -15,5 +15,4 @@ int main(){
     cout<<"Enter two numbers to find their HCF"<<endl;
     cin>>n1>>n2;
     hcf(n1,n2);
-
 }
