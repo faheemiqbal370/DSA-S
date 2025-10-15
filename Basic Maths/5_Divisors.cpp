@@ -13,7 +13,6 @@ int divi(int n){
     }
 }
 // another way to reduce Time Complexity
-
 int divi1(int n){
     //tc is O(sqrt(n))
     vector<int>factors;
