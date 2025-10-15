@@ -10,7 +10,6 @@ int hcf(int n1,int n2){
     else cout<<"HCF is "<<n1;
 }
 //TC will be O(log fi min(n1,n2))
-
 int main(){
     int n1,n2;
     cout<<"Enter two numbers to find their HCF"<<endl;
