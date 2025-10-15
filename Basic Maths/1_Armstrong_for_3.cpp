@@ -17,5 +17,4 @@ int main(){
     cin>>n;
     if(palin(n)) cout<<"The number "<<n <<" is ARMSTRONG";
     else cout<<"The number is NOT ARMSTRONG";
-
 }
