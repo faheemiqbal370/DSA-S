@@ -32,5 +32,4 @@ int main(){
     // }
     // else cout<<"Is Prime";
     prime1(n);
-
 }
