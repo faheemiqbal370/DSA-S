@@ -17,5 +17,4 @@ int main(){
     cin>>nbr;
     int rev=reverse(nbr);
     cout<<"Reversed is "<<rev;
-
 }
