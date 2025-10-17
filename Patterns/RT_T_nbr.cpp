@@ -14,4 +14,5 @@ int main(){
     cin>>n;
     pattern(n);
 return 0;
+
 }
