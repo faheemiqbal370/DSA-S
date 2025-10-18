@@ -16,6 +16,7 @@ int name1(int i,int n){
     name1(i-1,n);
     }
 }
+
 int main(){
 
     int n;
