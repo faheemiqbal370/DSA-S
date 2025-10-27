@@ -17,7 +17,6 @@ int name1(int i,int n){
     }
 }
 int main(){
-
     int n;
     cout<<"enter the nth number"<<endl;
     cin>>n;
