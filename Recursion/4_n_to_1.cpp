@@ -22,5 +22,4 @@ int main(){
     cin>>n;
     // name(0,n);
     name1(n,n);
-    
 }
