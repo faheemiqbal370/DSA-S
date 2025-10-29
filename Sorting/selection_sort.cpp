@@ -12,7 +12,7 @@ void sort(int arr[],int n){
         }
          int temp = arr[mini];
             arr[mini]=arr[i];
-            arr[i]=temp;
+            arr[i]=temp;  //swap the smallest with the i
     }
 }
 int main(){
