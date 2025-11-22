@@ -15,8 +15,9 @@ int prime1(int n){
     for(int i=1;i*i<=n;i++){
         if(n%i==0){
             count++;
-            if((n/i)!=i){
-                count++;
+            if((n/i)!=i){   
+                // If n is divisible by i, then there are usually TWO divisors: i and n/i.But when i == n/i (which happens when i is the square root of n), we must count it only ONCE. This check prevents double-counting.
+                count++;  
             }
         }
     }
