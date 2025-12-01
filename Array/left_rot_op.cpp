@@ -9,7 +9,6 @@ void reversee(int arr[],int start,int end){
         end--;
     }
 }
-
 void lr(int arr[],int n,int d){
     reversee(arr,0,d-1);
     reversee(arr,d,n-1);
