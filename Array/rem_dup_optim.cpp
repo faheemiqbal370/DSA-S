@@ -10,7 +10,6 @@ int removedup(int arr[],int n){
     }
     return i+1;
 }
-
 int main(){
    int arr[9]={1,1,2,2,3,3,3,4,4};
    int index=removedup(arr,9);
