@@ -16,6 +16,5 @@ int main(){
     cout<<"enter the nth number"<<endl;
     cin>>n;
     name(n,n);
-    
 
 }
