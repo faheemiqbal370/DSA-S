@@ -23,5 +23,4 @@ int main(){
     // name(0,n);
     name1(n,n);
     
-    
 }
