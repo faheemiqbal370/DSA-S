@@ -12,6 +12,7 @@ bool palin(int n){
     }
     return org==arm;
 }
+
 int main(){
     int n;
     cout<<"Enter the number to check armstrong"<<endl;
