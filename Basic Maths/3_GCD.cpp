@@ -10,6 +10,7 @@ int hcf(int n1, int n2){
     }
     cout<<"The HCF is "<<max;
 }
+
 int main(){
     int n1,n2;
     cout<<"Enter two numbers to find their HCF"<<endl;
