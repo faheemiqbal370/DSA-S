@@ -12,6 +12,7 @@ int main(){
         hash[s[i]]++;
     }
 
+    
     int t;
     cout<<"How many Characters you want to find"<<endl;
     cin>>t;
